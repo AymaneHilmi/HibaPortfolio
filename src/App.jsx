@@ -12,7 +12,7 @@ function App() {
           <img src={viteLogo} className="h-24 w-24" alt="Vite logo" />
         </a>
         <a href="https://react.dev" target="_blank" className="transition-transform hover:scale-110">
-          <img src={reactLogo} className="h-24 w-24 animate-spin-slow" alt="React logo" />
+          <img src={reactLogo} className="h-24 w-24 animate-spin" alt="React logo" />
         </a>
       </div>
       <h1 className="text-5xl font-bold mb-8 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent">
