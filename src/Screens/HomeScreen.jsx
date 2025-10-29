@@ -72,7 +72,7 @@ export default function HomeScreen({ visitsTotal }) {
               {" "}
               [ هبة]
             </span>
-            , <br />I'm a bridging{" "}
+            , <br />I'm bridging{" "}
             <span className="font-sfbold ">Science & Digital Innovation.
             </span>
           </motion.h1>
