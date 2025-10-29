@@ -87,7 +87,7 @@ export default function HomeScreen({ visitsTotal }) {
             I recently completed my Master’s degree in Digital Transformation Management at{" "}
             <LinkPreview
               imageSrc="https://iae.umontpellier.fr/wp-content/uploads/2025/03/iae-france.png"
-              url="https://www.saint-gobain.com/"
+              url="https://iae.umontpellier.fr"
               isStatic
               className="font-sfbold underline underline-offset-4 text-black dark:text-white hover:bg-gradient-to-r hover:from-blue-500 hover:via-orange-400 hover:to-red-500 hover:bg-clip-text hover:text-transparent transition-colors duration-300"
             >
