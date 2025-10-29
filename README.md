@@ -1,7 +1,7 @@
 # Hiba's Portfolio
 Welcome to my personal digital city! This portfolio is a space where I share my journey, projects, resume, and passion for technology. It’s built to be interactive and engaging, showcasing the work I’m proud of and reflecting my personal approach to development.
 
-You can access it at [Hibahilmi.com](https://Hibahilmi.com)
+You can access it at [Hibarahilsoussah.com](https://Hibarahilsoussah.com)
 
 ## Technical Stack
 This portfolio is developed using a combination of the following technologies:
