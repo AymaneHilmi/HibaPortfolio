@@ -1,5 +1,6 @@
 import React from "react";
 import FadeIn from "../components/FadeIn";
+import Navbar from "../components/Navbar";
 
 // Replace/extend with your real reads
 const books = [
@@ -51,19 +52,22 @@ function BookCell({ title, author, cover, category }) {
 
 export default function ReadsScreen() {
     return (
-        <div className="mx-auto max-w-6xl px-6 mt-32">
-            <FadeIn>
-                {/* Grid */}
-                <section className="">
-                    <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4">
-                        {books.map((b) => (
-                            <li key={b.id}>
-                                <BookCell {...b} />
-                            </li>
-                        ))}
-                    </ul>
-                </section>
-            </FadeIn>
+        <div className='flex flex-col w-full'>
+            <Navbar />
+            <div className="mx-auto max-w-6xl px-6 mt-32">
+                <FadeIn>
+                    {/* Grid */}
+                    <section className="">
+                        <ul className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4">
+                            {books.map((b) => (
+                                <li key={b.id}>
+                                    <BookCell {...b} />
+                                </li>
+                            ))}
+                        </ul>
+                    </section>
+                </FadeIn>
+            </div>
         </div>
     );
 }

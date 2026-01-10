@@ -1,0 +1,29 @@
+.scope {
+    /* Palette "Inspired Finds" (proche capture) basée sur variables Tailwind déjà exposées */
+    --links-bg: var(--stone-100);
+    --links-card: var(--stone-50);
+    --links-border: var(--stone-200);
+    --links-text: var(--stone-700);
+    --links-muted: var(--stone-500);
+    --links-underline: var(--stone-300);
+    --links-cta: var(--stone-400);
+    --links-cta-hover: var(--stone-500);
+    --links-cta-text: var(--white);
+
+    background: var(--links-bg);
+    color: var(--links-text);
+}
+
+/* Réactive un curseur standard sur /links (le site force cursor: none globalement) */
+:global(body[data-links-standalone='true']) {
+    cursor: auto !important;
+}
+
+:global(body[data-links-standalone='true'] *) {
+    cursor: auto !important;
+}
+
+/* Cache le footer global uniquement sur /links */
+:global(body[data-links-standalone='true'] footer) {
+    display: none !important;
+}

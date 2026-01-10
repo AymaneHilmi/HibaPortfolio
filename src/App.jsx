@@ -15,6 +15,7 @@ import NotFoundScreen from "./Screens/NotFoundScreen";
 import ScrollToTop from "./components/ScrollToTop";
 import ReadsScreen from './Screens/ReadsScreen';
 import PhotographerScreen from './Screens/PhotographerScreen';
+import LinksScreen from './Screens/LinksScreen';
 
 function App() {
 
@@ -27,7 +28,7 @@ function App() {
   return (
     <div className="flex flex-col bg-bgLight dark:bg-bgDark cursor-none w-full">
       <SmoothCursor />
-      <Navbar />
+
       <ScrollToTop />
       <Routes>
         <Route path="/" element={<HomeScreen />} />
@@ -35,6 +36,7 @@ function App() {
         <Route path="/easter-eggs" className="h-screen" element={<EasterEggsScreen />} />
         <Route path="/Reads" className="h-screen" element={<ReadsScreen />} />
         <Route path="/PhotographerPortfolio" className="h-screen" element={<PhotographerScreen />} />
+        <Route path="/links" className="h-screen" element={<LinksScreen />} />
         <Route path="*" element={<NotFoundScreen />} />
       </Routes>
       <Footer />
