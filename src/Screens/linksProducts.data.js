@@ -22,6 +22,10 @@ import img21 from "@/assets/links/21.jpeg";
 import img22 from "@/assets/links/22.jpeg";
 import img23 from "@/assets/links/23.jpeg";
 import img24 from "@/assets/links/24.jpeg";
+import img25 from "@/assets/links/25.jpeg";
+import img26 from "@/assets/links/26.jpeg";
+import img27 from "@/assets/links/27.jpeg";
+import img28 from "@/assets/links/28.jpeg";
 
 export const linksProducts = [
     {
@@ -215,5 +219,37 @@ export const linksProducts = [
         category: "Lighting",
         imageSrc: img24,
         amazonUrl: "https://amzn.to/4qcYpXI",
+    },
+    {
+        id: "25",
+        title: "Le Couple d’à côté",
+        subtitle: "A perfect neighborhood. A not-so-perfect truth.",
+        category: "Books",
+        imageSrc: img25,
+        amazonUrl: "https://amzn.to/49CuZLp",
+    },
+    {
+        id: "26",
+        title: "La Famille d’en face",
+        subtitle: "Watching others can be dangerous.",
+        category: "Books",
+        imageSrc: img26,
+        amazonUrl: "https://amzn.to/4sGiNlv",
+    },
+    {
+        id: "27",
+        title: "La Psy",
+        subtitle: "One session can change everything.",
+        category: "Books",
+        imageSrc: img27,
+        amazonUrl: "https://amzn.to/4jCE6QJ",
+    },
+    {
+        id: "28",
+        title: "Personne ne doit savoir",
+        subtitle: "Some secrets should stay hidden.",
+        category: "Books",
+        imageSrc: img28,
+        amazonUrl: "https://amzn.to/4qEmpTT",
     },
 ]
