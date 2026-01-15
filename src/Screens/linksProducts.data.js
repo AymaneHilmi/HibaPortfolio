@@ -257,7 +257,7 @@ export const linksProducts = [
     },
      {
         id: "29",
-        title: "Madagascar Centella Sun Milk SPF50+",
+        title: "Centella Sun Milk SPF50+",
         subtitle: "Light protection for everyday skin.",
         category: "Skincare",
         imageSrc: img29,
@@ -273,7 +273,7 @@ export const linksProducts = [
     },
      {
         id: "31",
-        title: "Madagascar Centella Ampoule",
+        title: "Centella Ampoule",
         subtitle: "Lightweight soothing care.",
         category: "Skincare",
         imageSrc: img31,
