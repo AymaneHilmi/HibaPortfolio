@@ -27,6 +27,8 @@ import img26 from "@/assets/links/26.jpeg";
 import img27 from "@/assets/links/27.jpeg";
 import img28 from "@/assets/links/28.jpeg";
 import img29 from "@/assets/links/29.jpeg";
+import img30 from "@/assets/links/30.jpeg";
+import img31 from "@/assets/links/31.jpeg";
 
 export const linksProducts = [
     {
@@ -260,5 +262,21 @@ export const linksProducts = [
         category: "Skincare",
         imageSrc: img29,
         amazonUrl: "https://amzn.to/4qnAMvz",
+    },
+    {
+        id: "30",
+        title: "Centella Brightening Ampoule",
+        subtitle: "Soothing, lightweight, calming everyday skincare.",
+        category: "Skincare",
+        imageSrc: img30,
+        amazonUrl: "https://amzn.to/4jDyCFs",
+    },
+     {
+        id: "31",
+        title: "Madagascar Centella Ampoule",
+        subtitle: "Soothing, lightweight care for everyday skin balance.",
+        category: "Skincare",
+        imageSrc: img31,
+        amazonUrl: "https://amzn.to/3YJLY9A",
     },
 ]
