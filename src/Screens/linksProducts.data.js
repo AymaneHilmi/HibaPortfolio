@@ -26,6 +26,7 @@ import img25 from "@/assets/links/25.jpeg";
 import img26 from "@/assets/links/26.jpeg";
 import img27 from "@/assets/links/27.jpeg";
 import img28 from "@/assets/links/28.jpeg";
+import img29 from "@/assets/links/29.jpeg";
 
 export const linksProducts = [
     {
@@ -251,5 +252,13 @@ export const linksProducts = [
         category: "Books",
         imageSrc: img28,
         amazonUrl: "https://amzn.to/4qEmpTT",
+    },
+     {
+        id: "29",
+        title: "Madagascar Centella Sun Milk SPF50+",
+        subtitle: "Light protection for everyday skin.",
+        category: "Skincare",
+        imageSrc: img29,
+        amazonUrl: "https://amzn.to/4qnAMvz",
     },
 ]
