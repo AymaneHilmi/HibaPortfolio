@@ -266,7 +266,7 @@ export const linksProducts = [
     {
         id: "30",
         title: "Centella Brightening Ampoule",
-        subtitle: "Soothing, lightweight, calming everyday skincare.",
+        subtitle: "Soothing, lightweight & calming skincare.",
         category: "Skincare",
         imageSrc: img30,
         amazonUrl: "https://amzn.to/4jDyCFs",
@@ -274,7 +274,7 @@ export const linksProducts = [
      {
         id: "31",
         title: "Madagascar Centella Ampoule",
-        subtitle: "Soothing, lightweight care for everyday skin balance.",
+        subtitle: "Lightweight soothing care.",
         category: "Skincare",
         imageSrc: img31,
         amazonUrl: "https://amzn.to/3YJLY9A",
